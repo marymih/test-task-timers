@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+ul {
+  list-style: none;
+}
+.timer-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 400px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+.timer-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.btn {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+}
+.add-btn {
+  background-color: rgb(62, 135, 62);
+}
+.add-btn:hover {
+  background-color: green;
+}
+.timer-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 400px;
+  margin: 10px 0;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.time-display {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.delete-btn {
+  background-color: rgb(230, 69, 69);
+}
+
+.delete-btn:hover {
+  background-color: #ff1a1a;
+}
+
+.stop-btn {
+  background-color: rgb(251, 182, 53);
+}
+
+.stop-btn:hover {
+  background-color: orange;
+}
