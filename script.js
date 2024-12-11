@@ -8,7 +8,7 @@ function createTimer(duration) {
 
   const timeDisplay = document.createElement('span');
   timeDisplay.classList.add('time-display');
-  timeDisplay.innerText = duration;
+  timeDisplay.innerText = `${duration} seconds left`;
 
   const stopButton = document.createElement('button');
   stopButton.classList.add('btn');
@@ -52,7 +52,7 @@ function createTimer(duration) {
     }
 
     duration -= 1;
-    timeDisplay.innerText = duration;
+    timeDisplay.innerText = `${duration} seconds left`;
 
     if (duration === 0) {
       clearInterval(interval);
