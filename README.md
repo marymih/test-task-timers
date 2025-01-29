@@ -1,6 +1,6 @@
 # Countdown Timers
 
-First test task for a frontend developer as part of the Hexlet and Habr Carreer challenge.
+First test task for a frontend developer as part of the Hexlet and Habr Career challenge.
 
 ## Description
 A single-page application that allows users to create countdown timers.
